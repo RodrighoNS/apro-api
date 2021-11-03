@@ -16,13 +16,13 @@ func main() {
 // deb represents data about a Dev
 type dev struct {
 	ID   string `json:"id"`
-	name string `json:"name"`
-	role string `json:"role"`
+	Name string `json:"name"`
+	Role string `json:"role"`
 }
 
 // devs slice to seed record dev data.
 var devs = []dev{
-	{ID: "1", name: "Josefina J", role: "frontend dev"},
+	{ID: "1", Name: "Josefina J", Role: "frontend dev"},
 }
 
 // getDevs responds with the list of all Devs as JSON
